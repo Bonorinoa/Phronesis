@@ -67,9 +67,26 @@ Rationale:
 - Avoid over-engineering.
 - Mode-specific memory can come later.
 
+## 2026-06-14 — Git Repository Initialized and Pushed
+
+Decision:
+- Initialized `~/Hermes/Projects/Phronesis` as a local git repository.
+- User manually created GitHub remote at `https://github.com/Bonorinoa/Phronesis.git`.
+- Added project-readiness files: `.gitignore`, `.env.example`, `README.md`, `CHANGELOG.md`, and `docs/README.md`.
+- Merged remote initial commit containing `LICENSE` and `.gitignore`.
+- Preserved the remote `LICENSE`.
+- Moved canonical design documents into `docs/`.
+- Rewrote root `README.md` as a forward-looking project overview and MVP roadmap.
+
+Rationale:
+- The folder is now ready for version-controlled implementation.
+- Root docs are kept clean while `docs/` contains the canonical design anchor suite.
+- `AGENTS.md` remains intentionally absent until coding-agent conventions are discussed.
+
 ## Open Engineering Notes
 
 - Need to test MisoTTS on Modal latency and quality.
 - Need to test MiniMax M3 tool use with our custom tools.
 - Need to validate Deepgram on economics terminology.
 - Need to decide exact PDF parser and embedding model during implementation.
+- Need to design `AGENTS.md` before handing the repo to coding agents.
