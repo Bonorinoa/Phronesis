@@ -6,6 +6,15 @@ generated: 2026-06-14
 root: `~/Hermes/Projects/Phronesis`  
 github: `https://github.com/Bonorinoa/Phronesis`
 
+## Top-Level Repository Files
+
+- `AGENTS.md` — instructions for coding agents operating in the repo
+- `README.md` — forward-looking project overview and roadmap
+- `CHANGELOG.md` — milestone log
+- `LICENSE` — Apache 2.0
+- `.env.example` — required secrets template
+- `.gitignore` — repo hygiene
+
 ## Canonical Documents
 
 All canonical design documents live in `docs/`.
@@ -32,13 +41,15 @@ All canonical design documents live in `docs/`.
 
 Before implementing any code for Phronesis, read at least:
 
-1. `README.md`
-2. `docs/PROJECT_MANIFEST.md`
-3. `docs/01_Project_Overview.md`
-4. `docs/02_System_Architecture.md`
-5. `docs/04_Tool_Specifications.md`
-6. `docs/05_RAG_and_Ingestion.md`
-7. `docs/09_Vibe_Engineering_Workflow.md`
-8. `docs/14_Decision_Engineering_Log.md`
+1. `AGENTS.md`
+2. `README.md`
+3. `docs/PROJECT_MANIFEST.md`
+4. `docs/01_Project_Overview.md`
+5. `docs/02_System_Architecture.md`
+6. `docs/04_Tool_Specifications.md`
+7. `docs/05_RAG_and_Ingestion.md`
+8. `docs/09_Vibe_Engineering_Workflow.md`
+9. `docs/14_Decision_Engineering_Log.md`
+10. `docs/15_Design_Spec.md` (before any UI work)
 
-`AGENTS.md` is intentionally absent until coding-agent conventions are discussed.
+`AGENTS.md` (at repo root) holds the project-specific coding-agent conventions.

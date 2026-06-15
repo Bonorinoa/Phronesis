@@ -91,6 +91,19 @@ Rationale:
 - Need to decide exact PDF parser and embedding model during implementation.
 - Need to design `AGENTS.md` before handing the repo to coding agents.
 
+## 2026-06-14 — Design Questions Locked + AGENTS.md Shipped
+
+Decision:
+- All 6 open design questions confirmed (cream primary, φ wordmark, Hayek quote, Greek equation numbers, espresso dark mode, Greek footer microcopy).
+- Design Spec v0.2 is now canonical.
+- Created `AGENTS.md` at repo root with project-specific coding-agent conventions, build order, guardrails, and verification checklist.
+- Updated `docs/PROJECT_MANIFEST.md` to reference `AGENTS.md` and add it to the required reading order.
+
+Rationale:
+- Coding agents now have a single top-level file to read for project conventions.
+- `AGENTS.md` is small enough to fit comfortably in coding-agent context.
+- Required reading list is explicit so agents do not skip the locked design decisions.
+
 ## 2026-06-14 — Design Direction Locked (v0.2)
 
 Decision:
@@ -113,9 +126,11 @@ Rationale:
 - Nous Research restraint prevents the aesthetic from tipping into kitsch.
 
 Open design questions to confirm before implementation:
-1. Cream primary, dark as secondary? (recommended)
-2. Wordmark with φ accent? (recommended)
-3. Hayek quote as empty-state hero? (recommended)
-4. Greek letter equation numbering? (recommended)
-5. Espresso + brass dark mode? (recommended)
-6. Greek transliterations in footer? (recommended)
+1. Cream primary, dark as secondary? ✅ **LOCKED**
+2. Wordmark with φ accent? ✅ **LOCKED**
+3. Hayek quote as empty-state hero? ✅ **LOCKED**
+4. Greek letter equation numbering? ✅ **LOCKED**
+5. Espresso + brass dark mode? ✅ **LOCKED**
+6. Greek transliterations in footer? ✅ **LOCKED**
+
+All six design questions locked on 2026-06-14. The Design Spec v0.2 is the canonical reference going forward.
