@@ -25,6 +25,8 @@ All canonical design documents live in `docs/`.
 - `docs/12_Open_Questions_and_Future_Ideas.md`
 - `docs/13_Glossary.md`
 - `docs/14_Decision_Engineering_Log.md`
+- `docs/15_Design_Spec.md`
+- `docs/mockups/design_mockups.html`
 
 ## Usage Note for Coding Agents
 

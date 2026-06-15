@@ -90,3 +90,32 @@ Rationale:
 - Need to validate Deepgram on economics terminology.
 - Need to decide exact PDF parser and embedding model during implementation.
 - Need to design `AGENTS.md` before handing the repo to coding agents.
+
+## 2026-06-14 — Design Direction Locked (v0.2)
+
+Decision:
+- Locked the aesthetic direction: **The Cool Kaffeehaus** — Viennese coffeehouse warmth + Nous-Research restraint + Greek cultural alignment.
+- Adopted **Hayek, *The Fatal Conceit* (1988)** as the empty-state hero quote.
+- Confirmed **phi (φ)** carries triple meaning: first letter of *phronesis*, the Golden Ratio, and Aristotle's distinction between practical and theoretical wisdom.
+- Adopted **page-based UI model** with sticky voice button — each substantive turn becomes a page in a journal-style session.
+- Adopted **pull-up bottom sheet** for mobile history (Apple Maps-style).
+- Adopted **Greek-key meander pattern** as the system divider.
+- Adopted **Greek letters (α, β, γ)** as page and equation numbers.
+- Adopted **Greek transliterations** (φιλοσοφία, διάλογος, σοφία) in microcopy.
+- Adopted **five-voice typography** (added Cormorant Garamond for Greek transliterations).
+- Shipped 5 phone mockups in `docs/mockups/design_mockups.html`.
+- Updated `docs/15_Design_Spec.md` to v0.2.
+
+Rationale:
+- The Hayek quote signals Austrian intellectual culture immediately and is self-referentially apt.
+- Greek alignment is cultural, not decorative — the word φ, the Golden Ratio, and Aristotle's distinction are all doing real work.
+- The page-based UI serves the walk-and-talk use case better than a chat feed.
+- Nous Research restraint prevents the aesthetic from tipping into kitsch.
+
+Open design questions to confirm before implementation:
+1. Cream primary, dark as secondary? (recommended)
+2. Wordmark with φ accent? (recommended)
+3. Hayek quote as empty-state hero? (recommended)
+4. Greek letter equation numbering? (recommended)
+5. Espresso + brass dark mode? (recommended)
+6. Greek transliterations in footer? (recommended)
