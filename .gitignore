@@ -10,17 +10,41 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-.python-version
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
 .coverage
 htmlcov/
+.tox/
+.nox/
+.hypothesis/
 .venv/
 venv/
+ENV/
 env/
+
+# Jupyter
+.ipynb_checkpoints/
 
 # Node / Vercel / frontend
 node_modules/
@@ -72,3 +96,6 @@ checkpoints/
 .LSOverride
 .vscode/
 .idea/
+
+# Misc
+*.log
