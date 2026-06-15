@@ -1,0 +1,74 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Node / Vercel / frontend
+node_modules/
+.next/
+out/
+dist/
+build/
+.vercel/
+.turbo/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Modal / local runtime
+.modal/
+modal.log
+
+# Local data and generated artifacts
+data/
+artifacts/
+outputs/
+logs/
+tmp/
+*.sqlite
+*.sqlite3
+*.db
+
+# Audio / media generated during testing
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+
+# Large model/checkpoint artifacts
+models/
+checkpoints/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# OS / editor
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/
+.idea/
